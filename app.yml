@@ -1,0 +1,17 @@
+runmode: dev
+# local configuration
+
+dev:
+    mongodb:
+        url: mongodb+srv://admin:admin@cluster0.ikqfb.mongodb.net/?retryWrites=true&w=majority
+        database: webhookdb
+        collecton: webhookdb
+    debug: true
+
+# prod configuration
+prod:
+    mongodb:
+        url: # global mongodb url
+        database: geolocdb
+        collecton: geo_loc
+    debug: true
